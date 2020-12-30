@@ -17,10 +17,10 @@ trait SetupTrait
      * Setup the frontend for testing.
      *
      * @param int $rootPageId The optional root page ID, defaults to `1`
-     * @param string $websiteTitle The optional website title, defaults to `Testing`
+     * @param string $websiteTitle The optional website title, defaults to `T3v Testing`
      *
      */
-    protected function setUpFrontend(int $rootPageId = 1, string $websiteTitle = 'Testing'): void
+    protected function setUpFrontend(int $rootPageId = 1, string $websiteTitle = 'T3v Testing'): void
     {
         $configuration = [
             'base' => '/',

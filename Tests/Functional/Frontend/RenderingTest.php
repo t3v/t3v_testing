@@ -24,14 +24,19 @@ class RenderingTest extends FunctionalTestCase
      *
      * @var array
      */
-    protected $coreExtensionsToLoad = ['core', 'frontend'];
+    protected $coreExtensionsToLoad = [
+        'core',
+        'frontend'
+    ];
 
     /**
      * The test extensions to load.
      *
      * @var array
      */
-    protected $testExtensionsToLoad = ['typo3conf/ext/t3v_testing'];
+    protected $testExtensionsToLoad = [
+        'typo3conf/ext/t3v_testing'
+    ];
 
     /**
      * The paths to link in the test instance.

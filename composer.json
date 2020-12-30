@@ -25,7 +25,8 @@
   "license": "MIT",
   "config": {
     "bin-dir": ".build/bin",
-    "vendor-dir": ".build/vendor"
+    "vendor-dir": ".build/vendor",
+    "web-dir": ".build/web"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
@@ -39,14 +40,14 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:t3v/testing-framework.git"
+      "url": "https://github.com/t3v/testing-framework.git"
     }
   ],
   "require": {
     "php": ">= 7.2 < 8.0",
     "ext-dom": "*",
     "typo3/cms-core": "^9.5.24 || ^10.4.12",
-    "typo3/testing-framework": "dev-master || dev-9"
+    "typo3/testing-framework": "^4.15.2 || ^6.6.0"
   },
   "require-dev": {
   },
@@ -62,8 +63,6 @@
   },
   "extra": {
     "typo3/cms": {
-      "app-dir": ".build",
-      "cms-package-dir": "{$vendor-dir}/typo3/cms",
       "extension-key": "t3v_testing",
       "web-dir": ".build/web"
     }

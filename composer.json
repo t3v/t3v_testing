@@ -64,9 +64,6 @@
       "web-dir": ".build/web"
     }
   },
-  "include-path": [
-    "Tests"
-  ],
   "scripts": {
     "post-autoload-dump": [
       "mkdir -p .build/web/typo3conf/ext/",

@@ -1,6 +1,6 @@
-# ---------------------------
-# | T3v Testing Tests Setup |
-# ---------------------------
+# ------------------------------
+# | T3v Testing Frontend Setup |
+# ------------------------------
 
 # === Configuration ===
 
@@ -90,9 +90,7 @@ config {
   # --- Misc ---
 
   # Sets the header comment:
-  headerComment (
-    ©2020 - present T3v Testing
-  )
+  headerComment = ©2020 - present T3v Testing
 
   # Disables the title tag for custom rendering:
   # noPageTitle = 2

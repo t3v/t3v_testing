@@ -43,13 +43,13 @@ class RenderingTest extends FunctionalTestCase
      *
      * @var array
      */
-    protected $pathsToLinkInTestInstance = [
-    ];
+    protected $pathsToLinkInTestInstance = [];
 
     /**
      * Tests if the template is rendered.
      *
      * @test
+     * @noinspection PhpFullyQualifiedNameUsageInspection
      */
     public function templateIsRendered(): void
     {
@@ -68,7 +68,7 @@ class RenderingTest extends FunctionalTestCase
             $actualDom->preserveWhiteSpace = false;
             $actualDom->loadHTML($body);
 
-            $this->assertXmlStringEqualsXmlString($expectedDom->saveHTML(), $actualDom->saveHTML());
+            self::assertXmlStringEqualsXmlString($expectedDom->saveHTML(), $actualDom->saveHTML());
         }
     }
 
@@ -93,6 +93,6 @@ class RenderingTest extends FunctionalTestCase
             ]
         );
 
-        $this->setUpFrontend(1, 'T3v Testing');
+        $this->setUpFrontend();
     }
 }

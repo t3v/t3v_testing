@@ -38,7 +38,7 @@ trait SetupTrait
                     'locale' => 'en_GB.utf8',
                     'iso-639-1' => 'en',
                     'navigationTitle' => 'Global',
-                    'hreflang' => 'x-default',
+                    'hreflang' => 'en',
                     'direction' => '',
                     'flag' => 'global',
                     'languageId' => '0'

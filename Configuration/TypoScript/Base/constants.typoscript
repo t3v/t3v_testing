@@ -1,0 +1,66 @@
+# ------------------------------
+# | T3v Testing Base Constants |
+# ------------------------------
+
+# === Plugin Constants ===
+
+plugin {
+  tx_t3vtesting {
+    persistence {
+      # cat=plugin/tx_t3vtesting/persistence; type=boolean; label=Enables the automatic cache clearing when changing data sets
+      enableAutomaticCacheClearing = 1
+
+      # cat=plugin/tx_t3vtesting/persistence; type=int+; label=The PID of the default storage
+      storagePid = 0
+
+      # cat=plugin/tx_t3vtesting/persistence; type=boolean; label=Updates the reference index to ensure data integrity
+      updateReferenceIndex = 1
+    }
+
+    resources {
+      # cat=plugin/tx_t3vtesting/resources; type=string; label=The root path where the resources are stored
+      rootPath = EXT:t3v_testing/Resources/
+
+      private {
+        # cat=plugin/tx_t3vtesting/resources/private; type=string; label=The root path where the private resources are stored
+        rootPath = EXT:t3v_testing/Resources/Private/
+      }
+
+      public {
+        # cat=plugin/tx_t3vtesting/resources/public; type=string; label=The root path where the public resources are stored
+        rootPath = EXT:t3v_testing/Resources/Public/
+      }
+    }
+
+    settings {
+      extbase {
+        # cat=plugin/tx_t3vtesting/settings/extbase; type=string; label=The controller extension name
+        controllerExtensionName = T3vTesting
+      }
+    }
+
+    view {
+      # cat=plugin/tx_t3vtesting/view; type=string; label=The root path where the layouts are stored
+      layoutRootPath = EXT:t3v_testing/Resources/Private/Layouts/
+
+      # cat=plugin/tx_t3vtesting/view; type=string; label=The root path where the templates are stored
+      templateRootPath = EXT:t3v_testing/Resources/Private/Templates/
+
+      # cat=plugin/tx_t3vtesting/view; type=string; label=The root path where the partials are stored
+      partialRootPath = EXT:t3v_testing/Resources/Private/Partials/
+
+      page {
+        # cat=plugin/tx_t3vtesting/view/page; type=string; label=The root path where the page layouts are stored
+        layoutRootPath = EXT:t3v_testing/Resources/Private/Layouts/Page/
+
+        # cat=plugin/tx_t3vtesting/view/page; type=string; label=The root path where the page templates are stored
+        templateRootPath = EXT:t3v_testing/Resources/Private/Templates/Page/
+
+        # cat=plugin/tx_t3vtesting/view/page; type=string; label=The root path where the page partials are stored
+        partialRootPath = EXT:t3v_testing/Resources/Private/Partials/Page/
+      }
+    }
+  }
+}
+
+# === T3v Generator ===

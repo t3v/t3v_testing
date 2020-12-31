@@ -1,0 +1,15 @@
+# --------------------------------
+# | T3v Testing Styles Constants |
+# --------------------------------
+
+styles {
+  content {
+    textmedia {
+      # Sets the maximum media or image width in px:
+      maxW = 1280
+
+      # Sets the maximum media or image width (within text) in px:
+      maxWInText = 640
+    }
+  }
+}

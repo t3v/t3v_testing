@@ -1,0 +1,21 @@
+# ---------------------------------------
+# | T3v Testing Frontend Fixtures Setup |
+# ---------------------------------------
+
+config {
+  # --- Rendering ---
+
+  # If this is set, none of the features of the PAGE object is processed and the content of the page will be the result of the cObject
+  # array of the PAGE object.
+  disableAllHeaderCode = 0
+
+  # If this option is set, TYPO3 core will not generate the opening part of the body tag. The closing body tag `</body>` is not affected
+  # and will still be issued.
+  disableBodyTag = 0
+
+  # En-/disables the default charset metadata in the header (`<meta charset="<CHARSET>" />`):
+  disableCharsetHeader = 0
+
+  # En-/disables extra debug information as comment in the HTML code:
+  debug = 1
+}

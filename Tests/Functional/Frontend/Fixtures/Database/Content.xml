@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataset>
+  <tt_content>
+    <uid>1</uid>
+    <pid>1</pid>
+    <CType>header</CType>
+    <header>Header Content Element</header>
+    <deleted>0</deleted>
+    <t3ver_oid>0</t3ver_oid>
+    <t3ver_wsid>0</t3ver_wsid>
+  </tt_content>
+
+  <tt_content>
+    <uid>2</uid>
+    <pid>1</pid>
+    <CType>text</CType>
+    <header>Text Content Element</header>
+    <bodytext>
+      Et at denique mel at te wisi sea abhorreant eu mei ex ei aeterno maluisset eos. Ex sed ea sit fastidii signiferumque albucius eros et
+      unum pri blandit ei tale.
+    </bodytext>
+    <deleted>0</deleted>
+    <t3ver_oid>0</t3ver_oid>
+    <t3ver_wsid>0</t3ver_wsid>
+  </tt_content>
+</dataset>

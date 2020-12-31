@@ -1,0 +1,11 @@
+# -------------------------
+# | T3v Testing Constants |
+# -------------------------
+
+# === Imports ===
+
+@import './Base/constants.typoscript'
+@import './Page/constants.typoscript'
+@import './Config/constants.typoscript'
+
+# === T3v Generator ===

@@ -1,0 +1,8 @@
+# --------------------------------
+# | T3v Testing Config Constants |
+# --------------------------------
+
+# === Imports ===
+
+@import './L10n/constants.typoscript'
+@import './Styles/constants.typoscript'

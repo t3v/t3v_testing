@@ -22,17 +22,19 @@ Development
 ### Setup
 
 ```shell
-git clone https://github.com/t3v/t3v_testing.git t3v_testing
+git clone https://github.com/t3v/t3v_testing.git
 cd t3v_testing
+
 ./Scripts/Setup.sh
 ```
 
-### Tests
+### Testing
 
 ```shell
 ./Scripts/Tests.sh
 ./Scripts/Tests/Unit.sh
 ./Scripts/Tests/Functional.sh
+./Scripts/Tests/Maintenance.sh
 ```
 
 Bug Reports

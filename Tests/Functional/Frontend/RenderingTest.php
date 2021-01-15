@@ -81,8 +81,8 @@ class RenderingTest extends FunctionalTestCase
     {
         parent::setUp();
 
-        $this->importDataSet('EXT:t3v_testing/Tests/Functional/Frontend/Fixtures/Database/Pages.xml');
-        $this->importDataSet('EXT:t3v_testing/Tests/Functional/Frontend/Fixtures/Database/Content.xml');
+        $this->importDataSet('EXT:t3v_testing/Tests/Functional/Fixtures/Database/Pages.xml');
+        $this->importDataSet('EXT:t3v_testing/Tests/Functional/Fixtures/Database/Content.xml');
 
         $this->setUpFrontendRootPage(
             1,

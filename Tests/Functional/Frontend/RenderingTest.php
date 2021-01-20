@@ -65,7 +65,7 @@ class RenderingTest extends FunctionalTestCase
             $titleTag = $xpath->query('/html/head/title')->item(0);
             $generatorMetaTag = $xpath->query('/html/head/meta[@name="generator"]')->item(0);
 
-            self::assertEquals('Home | T3v Testing', $titleTag->nodeValue);
+            self::assertStringContainsString('Home', $titleTag->nodeValue);
             self::assertEquals('TYPO3 CMS', $generatorMetaTag->getAttribute('content'));
         }
     }

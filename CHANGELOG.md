@@ -3,6 +3,13 @@ CHANGELOG
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
+1.1.0
+-----
+
+* `typo3/testing-framework` supports now TYPO3 9.x with Composer
+* First support for TYPO3 11.x
+* Minor changes
+
 1.0.0
 -----
 

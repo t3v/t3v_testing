@@ -31,7 +31,7 @@ git clone https://github.com/t3v/t3v_testing.git && cd t3v_testing
 ./Scripts/Tests.sh
 ./Scripts/Tests/Unit.sh
 ./Scripts/Tests/Functional.sh
-./Scripts/Tests/Maintenance.sh
+./Scripts/Tests/Migrate.sh
 ```
 
 Bug Reports

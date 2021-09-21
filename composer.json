@@ -42,7 +42,7 @@
   "require": {
     "php": ">= 7.2",
     "typo3/cms-core": "^9.5.30 || ^10.4.20 || ^11.5",
-    "typo3/testing-framework": "^4.15 || ^6.11"
+    "typo3/testing-framework": "^4.15 || ^6.11 || dev-master"
   },
   "require-dev": {
     "ext-dom": "*"

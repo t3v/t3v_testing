@@ -3,7 +3,9 @@ declare(strict_types=1);
 
 namespace T3v\T3vTesting\Tests\Functional\Frontend;
 
+use Doctrine\DBAL\DBALException;
 use T3v\T3vTesting\Tests\Functional\Frontend\Traits\SetupTrait;
+use TYPO3\TestingFramework\Core\Exception;
 use TYPO3\TestingFramework\Core\Functional\Framework\Frontend\InternalRequest;
 use TYPO3\TestingFramework\Core\Functional\FunctionalTestCase;
 
@@ -73,9 +75,8 @@ class RenderingTest extends FunctionalTestCase
     /**
      * Setup before running tests.
      *
-     * @throws \Doctrine\DBAL\DBALException
-     * @throws \TYPO3\TestingFramework\Core\Exception
-     * @noinspection PhpFullyQualifiedNameUsageInspection
+     * @throws DBALException
+     * @throws Exception
      */
     protected function setUp(): void
     {

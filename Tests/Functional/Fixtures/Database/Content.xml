@@ -4,7 +4,7 @@
     <uid>1</uid>
     <pid>1</pid>
     <CType>header</CType>
-    <header>Header Content Element</header>
+    <header>Header</header>
     <deleted>0</deleted>
     <t3ver_oid>0</t3ver_oid>
     <t3ver_wsid>0</t3ver_wsid>
@@ -14,7 +14,7 @@
     <uid>2</uid>
     <pid>1</pid>
     <CType>text</CType>
-    <header>Text Content Element</header>
+    <header>Text</header>
     <bodytext>
       Et at denique mel at te wisi sea abhorreant eu mei ex ei aeterno maluisset eos. Ex sed ea sit fastidii signiferumque albucius eros et
       unum pri blandit ei tale.

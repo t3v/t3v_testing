@@ -10,6 +10,11 @@ namespace T3v\T3vTesting\Tests\Unit\Fixtures;
  */
 class LoadableClass
 {
+    /**
+     * Dummy function which always returns true
+     *
+     * @return bool
+     */
     public function returnsTrue(): bool
     {
         return true;

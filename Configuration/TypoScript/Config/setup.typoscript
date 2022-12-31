@@ -1,6 +1,8 @@
-# ----------------------------
-# | T3v Testing Config Setup |
-# ----------------------------
+/*
+  ----------------------------
+  | T3v Testing Config Setup |
+  ----------------------------
+*/
 
 config {
   # --- Rendering ---
@@ -76,10 +78,10 @@ config {
 
   # Sets the header comment:
   headerComment (
-    ©2020 - present T3v Testing
+    ©2022 - present T3v Testing
   )
 
-  # Settings for the spam protection of email addresses:
+  # The settings for the spam protection of email addresses:
   spamProtectEmailAddresses = 1
   spamProtectEmailAddresses_atSubst = &#64;
   spamProtectEmailAddresses_lastDotSubst = .
@@ -94,7 +96,13 @@ config {
   debug = 0
 }
 
-# === Imports ===
+/*
+  === Imports ===
+*/
 
-@import './L10n/setup.typoscript'
+@import './Localization/setup.typoscript'
 @import './Styles/setup.typoscript'
+
+/*
+  === T3v Generator ===
+*/

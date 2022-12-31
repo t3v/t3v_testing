@@ -1,6 +1,8 @@
-# ----------------------------------
-# | T3v Testing Localization Setup |
-# ----------------------------------
+/*
+  ----------------------------------
+  | T3v Testing Localization Setup |
+  ----------------------------------
+*/
 
 config {
   # --- General ---
@@ -153,11 +155,15 @@ config {
   htmlTag_setParams = class="global en no-js" lang="en"
 }
 
-# === Locales ===
+/*
+  === Locales ===
+*/
 
-# --- Germany: Deutsch ---
+/*
+  --- Germany: Deutsch ---
+*/
 
-[globalVar = GP:L = 1]
+[siteLanguage("languageId") == 1]
   config {
     sys_language_uid = 1
     sys_language_isocode = de

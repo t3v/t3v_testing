@@ -1,8 +1,12 @@
-# --------------------------
-# | T3v Testing Base Setup |
-# --------------------------
+/*
+  --------------------------
+  | T3v Testing Base Setup |
+  --------------------------
+*/
 
-# === Plugin Configuration ===
+/*
+  === Plugin Configuration ===
+*/
 
 plugin {
   tx_t3vtesting {
@@ -67,7 +71,9 @@ plugin {
   }
 }
 
-# === Module Configuration ===
+/*
+  === Module Configuration ===
+*/
 
 module {
   tx_t3vtesting {
@@ -78,4 +84,6 @@ module {
   }
 }
 
-# === T3v Generator ===
+/*
+  === T3v Generator ===
+*/

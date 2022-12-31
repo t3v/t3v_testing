@@ -1,8 +1,12 @@
-# ------------------------------
-# | T3v Testing Base Constants |
-# ------------------------------
+/*
+  ------------------------------
+  | T3v Testing Base Constants |
+  ------------------------------
+*/
 
-# === Plugin Constants ===
+/*
+  === Plugin Constants ===
+*/
 
 plugin {
   tx_t3vtesting {
@@ -63,4 +67,6 @@ plugin {
   }
 }
 
-# === T3v Generator ===
+/*
+  === T3v Generator ===
+*/

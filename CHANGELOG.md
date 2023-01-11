@@ -3,6 +3,12 @@ CHANGELOG
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
+Unreleased
+----------
+
+* Dropped support for TYPO3 10.4 (breaking change)
+* Dropped support for PHP < 8.0 (breaking change)
+
 2.0.0
 -----
 

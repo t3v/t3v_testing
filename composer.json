@@ -43,9 +43,9 @@
     }
   ],
   "require": {
-    "php": ">= 7.4",
-    "typo3/cms-core": "^10.4.34 || ^11.5.22",
-    "typo3/testing-framework": "^4.15 || ^6.16"
+    "php": ">= 8.0",
+    "typo3/cms-core": "^11.5.22",
+    "typo3/testing-framework": "^6.16"
   },
   "require-dev": {
     "ext-dom": "*"

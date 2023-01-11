@@ -1,6 +1,5 @@
 <?php
 /** @var string $_EXTKEY */
-
 $EM_CONF[$_EXTKEY] = [
     'title' => 'T3v Testing',
     'description' => 'The testing extension of TYPO3voilà.',
@@ -15,7 +14,7 @@ $EM_CONF[$_EXTKEY] = [
     'clearCacheOnLoad' => false,
     'constraints' => [
         'depends' => [
-            'typo3' => '10.4.0-11.5.99'
+            'typo3' => '10.4.0-10.4.99'
         ],
         'conflicts' => [
         ],

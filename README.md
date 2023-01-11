@@ -6,7 +6,7 @@
 Dependencies
 ------------
 
-* TYPO3 CMS 10.4 or greater
+* TYPO3 CMS Core 10.4
 
 Installation
 ------------

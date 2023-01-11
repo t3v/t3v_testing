@@ -3,6 +3,11 @@ CHANGELOG
 
 Notable changes will be documented in this file. The project adheres to [Semantic Versioning].
 
+3.1.0
+-----
+
+* Intial support for TYPO3 12.x
+
 3.0.0
 -----
 
